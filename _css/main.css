@@ -9,16 +9,18 @@
 #dab844 Yellow
 */
 
-background-color: #001e25;
+html {
+	background-color: #001e25;
+	
+	h1 {
+		font-size: 6em;
+		color: #00b2df;
+		font-weight: strong;
+	}
 
-h1 {
-	font-size: 6em;
-	color: #00b2df;
-	font-weight: strong;
-}
-
-p {
-	font-size: 2em;
-	color: #dab844;
-	font-weight: normal;
+	p {
+		font-size: 2em;
+		color: #dab844;
+		font-weight: normal;
+	}
 }
