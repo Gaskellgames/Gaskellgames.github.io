@@ -16,12 +16,13 @@ html {
 }
 
 /*styles*/
-header#mainHeader h1 {
+h1 {
 	font-size: 6em;
 	color: #00b2df;
 	font-weight: strong;
 }
-header#mainHeader p {
+
+p {
 	font-size: 2em;
   color: #dab844;
 	font-weight: normal;
