@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 /*color guide:
 #000000 Black
 #b3b3b3 Light Grey
@@ -11,11 +9,8 @@
 #dab844 Yellow
 */
 
-html {
-	background-color: #001e25;
-}
+background-color: #001e25;
 
-/*styles*/
 h1 {
 	font-size: 6em;
 	color: #00b2df;
