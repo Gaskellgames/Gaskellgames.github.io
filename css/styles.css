@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/*color guide:
+#000000 Black
+#b3b3b3 Light Grey
+#808080 Grey
+#4f4f4f Dark Grey
+#ffffff White
+#00b2df Light Cyan
+#001e25 Dark Cyan
+#dab844 Yellow
+*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+
+html {
+	background: #001e25;
+}
+p {
+	font: 100% Futura, "Trebuchet MS", Arial, sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	color: #dab844;
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
