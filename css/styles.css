@@ -27,9 +27,9 @@ html {
 	background: #001e25;
 }
 small {
+	color: #dab844;
 	font: 100% Futura, "Trebuchet MS", Arial, sans-serif;
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
-	color: #dab844;
 }
