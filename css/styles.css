@@ -26,6 +26,13 @@ address, article, aside, canvas, details, figcaption, figure, footer, header, hg
 html {
 	background: #001e25;
 }
+body {
+  font: 100% Futura, "Trebuchet MS", Arial, sans-serif;
+  background-image: url('../_images/Background_Dark.jpg');
+	background-size: contain;
+	background-position: top;
+	background-repeat: no-repeat;
+}
 
 /*header and nav*/
 #navbarWrap {
@@ -97,7 +104,21 @@ nav ul li a:hover:after {
   padding: 0px;
   color: #ffffff;
 }
-
+#pageBodyWrap {
+	margin: 0px;
+  padding: 20px;
+	height: 80vh;
+	text-align: left;
+	background: #001e25;
+}
+#pageFooterWrap {
+	margin: 0px;
+  padding: 20px;
+	height: 10vh;
+	color: #b3b3b3;
+	text-align: left;
+	background: #4f4f4f;
+}
 small {
 	color: #dab844 !important;
 	font: 75% Futura, "Trebuchet MS", Arial, sans-serif;
