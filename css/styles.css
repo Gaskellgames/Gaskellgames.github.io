@@ -28,7 +28,7 @@ html {
 }
 
 /*header and nav*/
-.navbarWrap {
+#navbarWrap {
 	overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -38,13 +38,13 @@ html {
 	background: #000000;
 	box-shadow: 0px 5px 0px #00b2df;
 }
-.logoWrap {
+#logoWrap {
 	position: fixed;
 	top: 15px;
 	left: 15px;
 	height: 50px;
 }
-.menuWrap {
+#menuWrap {
 	position: fixed;
 	top: 15px;
 	right: 15px;
@@ -90,6 +90,12 @@ nav ul li a:after {
 }
 nav ul li a:hover:after {
   width: 100%;
+}
+
+#contentWrap {
+  margin:80px 0px 0px 0px; /*Add a top margin to avoid content overlay with nav*/
+  padding: 0px;
+  color: #ffffff;
 }
 
 small {
