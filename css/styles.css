@@ -28,10 +28,6 @@ html {
 }
 body {
   font: 100% Futura, "Trebuchet MS", Arial, sans-serif;
-  background-image: url('../_images/Background_Dark.jpg');
-	background-size: contain;
-	background-position: top;
-	background-repeat: no-repeat;
 }
 
 /*header and nav*/
@@ -62,58 +58,58 @@ nav {
 	height: 50px;
 }
 nav ul {
-  list-style: none;
-  text-align: right;
+  	list-style: none;
+  	text-align: right;
 }
 nav ul li {
-  display: inline-block;
+  	display: inline-block;
 }
 nav ul li a {
-  position: relative;
+  	position: relative;
 	display: block;
-  padding: 15px;
+  	padding: 15px;
 	margin: 0 10px;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 800;
-  text-transform: uppercase;
+ 	text-decoration: none;
+  	color: #ffffff;
+  	font-weight: 800;
+  	text-transform: uppercase;
 }
 nav ul li a:hover {
-  color: #808080;
+  	color: #808080;
 	transition: 0.5s;
 }
 nav ul li a:after {
-  position: absolute;
-  transition: 0.5s;
+  	position: absolute;
+  	transition: 0.5s;
 	bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
 	height: 1px;
 	width: 0%;
-  content: '';
-  color: transparent;
-  background: #328080;
+  	content: '';
+  	color: transparent;
+  	background: #328080;
 }
 nav ul li a:hover:after {
-  width: 100%;
+  	width: 100%;
 }
 
 .contentWrap {
-  margin:80px 0px 0px 0px; /*Add a top margin to avoid content overlay with nav*/
-  padding: 0px;
-  color: #ffffff;
+  	margin:80px 0px 0px 0px; /*Add a top margin to avoid content overlay with nav*/
+  	padding: 0px;
+  	color: #ffffff;
 }
 .pageBodyWrap {
 	margin: 0px;
-  padding: 20px;
+  	padding: 20px;
 	height: 80vh;
 	text-align: left;
 	background: #001e25;
 }
 .pageFooterWrap {
 	margin: 0px;
-  padding: 20px;
+  	padding: 20px;
 	height: 10vh;
 	color: #b3b3b3;
 	text-align: left;
