@@ -115,10 +115,16 @@ nav ul li a:hover:after {
 	text-align: left;
 	background: #4f4f4f;
 }
-small {
-	color: #dab844 !important;
-	font: 75% Futura, "Trebuchet MS", Arial, sans-serif;
+footer {
+	font-size: 16px;
 	margin: 0 auto;
 	text-align: center;
+	position: relative;
+}
+small {
+	color: #dab844 !important;
+	font-size: 12px;
+	margin: 0 auto;
+	text-align: center; !important
 	position: relative;
 }
